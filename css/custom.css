@@ -1,0 +1,141 @@
+a:hover 
+{
+	text-decoration: none;	
+}
+
+h1
+{
+	font-family: 'Space Mono', monospace;
+	font-size: 48px;
+	color: #222629;
+	letter-spacing: -.05em;
+	margin-top: 48px;
+}
+
+h4
+{
+	font-family: 'Space Mono', monospace;
+	font-size: 	18px;
+	font-weight: 200;
+}
+
+body 
+{
+	font-family: 'Roboto', sans-serif;	
+	font-weight: 300;	
+	background-color: #f1f5f8;
+	border-bottom: 2px solid #2b837b;
+	border-top: 10px solid #3aafa9;
+}
+
+.header
+{
+	margin-bottom: 48px;	
+}
+
+.header p
+{
+	font-size: 20px;
+}
+
+.portfolio
+{
+	margin: 48px 0;
+}
+
+.portfolio-sorting
+{
+	text-transform: uppercase;
+	font-weight: 300;		
+	font-size: 16px;
+	line-height: 3em;
+	margin-bottom: 48px;
+}
+
+.portfolio-sorting li a 
+{
+	background-color: #222629;
+	border: 3px solid #222629;
+	border-radius: 3px;	
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px;
+}
+.portfolio-sorting li a:hover,
+.portfolio-sorting li a.active
+{
+	color: #ffffff;
+	background-color: #3aafa9;
+	border: 3px solid #3aafa9;	
+}
+
+.portfolio-item 
+{
+	border: 3px solid #e5e6e7;
+	border-radius: 3px;
+	margin-bottom: 30px;
+	background-color: #ffffff;
+}
+
+.card-block
+{
+	padding: 15px;
+}
+
+.card-block a
+{
+	color: #3aafa9
+}
+
+.card-block a:hover
+{
+	color: #2b837b
+}
+
+/**************
+	FOOTER
+***************/
+footer
+{
+	border-top: 5px solid #3aafa9;
+	font-weight: 300;		
+	background-color: #222629;
+	padding: 24px;
+	font-size: 15px;
+}
+
+footer,
+footer a
+{
+	color: white;
+}
+
+footer a:hover 
+{
+	color: #6b6e70;
+}
+
+footer .column ul li 
+{
+	margin-bottom: 6px;
+}
+
+footer .column h4
+{
+	font-size: 24px;
+	font-weight: 200;		
+	padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+footer .column .glyphicon-chevron-right
+{
+	margin-right: 6px;
+	color: #3aafa9;
+}
+
+.social-icons 
+{
+	margin-top: 24px;
+	margin-bottom: 24px;	
+}
