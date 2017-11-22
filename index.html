@@ -26,10 +26,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">     
     <link href="https://fonts.googleapis.com/css?family=Space+Mono:200,400,700" rel="stylesheet">
     
-    <!-- Lightbox Modal - MAY NEED TO ADD OTHER FILES -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-    
     <style>
       body {
         background-image: url(sarahjaneparker.github.io/images/sayagata-400px.png)
@@ -155,14 +151,13 @@
 
           </div> <!--end row -->
         </div> <!-- end container-->
-            <!-- Code for Lightbox Modal at end of body -->
-    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-      event.preventDefault();
-      $(this).ekkoLightbox();
-  });
     </section>
 
-
+  <!-- Code for Lightbox Modal at end of body -->
+            $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+              event.preventDefault();
+              $(this).ekkoLightbox();
+          });
 
     <footer>
       <div class="container">
@@ -197,7 +192,10 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.shuffle.min.js"></script>
     <script src="js/custom.js"></script>
-
+    
+    <!-- Lightbox Modal - MAY NEED TO ADD OTHER FILES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
 
 
   </body>
