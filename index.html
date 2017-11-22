@@ -157,7 +157,11 @@
         </div> <!-- end container-->
     </section>
 
-
+    <!-- Code for Lightbox Modal at end of body -->
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+  });
 
     <footer>
       <div class="container">
@@ -193,11 +197,7 @@
     <script src="js/jquery.shuffle.min.js"></script>
     <script src="js/custom.js"></script>
 
-    <!-- Code for Lightbox Modal at end of body -->
-    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-      event.preventDefault();
-      $(this).ekkoLightbox();
-  });
+
 
   </body>
 </html>
